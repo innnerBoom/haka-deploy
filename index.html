@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAKA 앱 설치</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 350px;
+        }
+        .logo { font-size: 80px; margin-bottom: 20px; }
+        h1 { color: #333; margin-bottom: 10px; font-size: 24px; }
+        p { color: #666; margin-bottom: 30px; font-size: 14px; }
+        .install-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .version { color: #999; font-size: 12px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🔐</div>
+        <h1>HAKA Secure Messenger</h1>
+        <p>AI 의미검색이 탑재된 보안 메신저</p>
+        <a href="itms-services://?action=download-manifest&url=https://innnerBoom.github.io/haka-deploy/manifest.plist" class="install-btn">
+            📲 앱 설치
+        </a>
+        <p class="version">v1.0.0 | Enterprise</p>
+    </div>
+</body>
+</html>
